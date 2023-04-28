@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    top: 50%;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 100px;
+    font-size: 32px;
+}
+
+body{
+    color:black; background-color:black;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}

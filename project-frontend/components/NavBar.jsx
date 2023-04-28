@@ -14,10 +14,10 @@ const NavBar = () => {
         <nav className={styles.navbar}>
           <ul>
             <li>
-              <Link href="/">home</Link>
+              <Link href="/">Home</Link>
             </li>
             <li>
-              <Link href="/">orders +</Link>
+              <Link href="/">Scheduler</Link>
               <ul>
                 <li>
                   <Link href="/customers">all orders</Link>

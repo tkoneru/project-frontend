@@ -15,7 +15,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
         <div className={styles.container}>
-            Welcome to order service.
+            Welcome to the course scheduler.
         </div>
     </>
   )

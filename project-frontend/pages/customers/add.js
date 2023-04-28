@@ -32,7 +32,7 @@ const Customer = () => {
                                    {...register('name',
                                        {required: true,
                                                message: 'please enter a name' })}
-                                   placeholder="Enter Order Name..."/>
+                                   placeholder="Enter Student Name..."/>
 
                         </div>
 
@@ -44,7 +44,7 @@ const Customer = () => {
                                    {...register('email',
                                        {required: true,
                                            message: 'please enter an email address' })}
-                                   placeholder="Enter Order ID..."/>
+                                   placeholder="Enter Course Number..."/>
                         </div>
 
 
