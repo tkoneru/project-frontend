@@ -21,30 +21,30 @@ const Customer = () => {
     return(
         <>
             <div className={styles.container}>
-                <h1 className={styles.form_title}>Add a new customer</h1>
+                <h1 className={styles.form_title}>Add a new order</h1>
                 <form action="#" onSubmit={handleSubmit(save)}>
                     <div className={styles.main_user_info}>
                         <div className={styles.user_input_box}>
-                            <label htmlFor="name">Full Name</label>
+                            <label htmlFor="name">Order Name</label>
                             <input type="text"
                                    id="name"
                                    name="name"
                                    {...register('name',
                                        {required: true,
                                                message: 'please enter a name' })}
-                                   placeholder="Enter Full Name"/>
+                                   placeholder="Enter Order Name..."/>
 
                         </div>
 
                         <div className={styles.user_input_box}>
-                            <label htmlFor="email">Email</label>
+                            <label htmlFor="email">Order ID</label>
                             <input type="email"
                                    id="email"
                                    name="email"
                                    {...register('email',
                                        {required: true,
                                            message: 'please enter an email address' })}
-                                   placeholder="Enter Email"/>
+                                   placeholder="Enter Order ID..."/>
                         </div>
 
 

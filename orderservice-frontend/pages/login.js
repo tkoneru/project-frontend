@@ -1,4 +1,4 @@
-import styles from "@/styles/login.module.css";
+import styles from "@/styles/about-us.module.css";
 import {useForm} from "react-hook-form";
 import data from "@/data/data";
 

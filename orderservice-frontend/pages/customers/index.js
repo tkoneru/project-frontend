@@ -27,8 +27,8 @@ const Customers = () => {
           <table className={styles.table}>
             <thead>
               <tr>
-                <th>Name</th>
-                <th>Email</th>
+                <th>Order Name</th>
+                <th>Order ID#</th>
               </tr>
             </thead>
             <tbody>
@@ -36,6 +36,7 @@ const Customers = () => {
                 <tr key={i}>
                   <td data-label="Name">{c.name}</td>
                   <td data-label="Email">{c.email}</td>
+                  <td data-label="Order ID">{c.order}</td>
                 </tr>
               ))}
             </tbody>

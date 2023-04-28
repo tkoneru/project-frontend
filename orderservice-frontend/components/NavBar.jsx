@@ -6,7 +6,7 @@ const NavBar = () => {
   return (
     <>
       <header>
-        <Link className={styles.logo} href="/">logo</Link>
+        <Link className={styles.logo} href="/">home</Link>
 
         <input type="checkbox" id="menu-bar" className={styles.menubar}></input>
         <label for="menu-bar">menu</label>
@@ -20,15 +20,15 @@ const NavBar = () => {
               <Link href="/">orders +</Link>
               <ul>
                 <li>
-                  <Link href="/customers">all customers</Link>
+                  <Link href="/customers">all orders</Link>
                 </li>
                 <li>
-                  <Link href="/customers/add">new customer</Link>
+                  <Link href="/customers/add">new order</Link>
                 </li>
               </ul>
             </li>
             <li>
-              <Link href="/login">register/login</Link>
+              <Link href="/about-us">About Us</Link>
             </li>
           </ul>
         </nav>
